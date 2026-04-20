@@ -14,13 +14,13 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.graemedakers.spraytankcalculator",
+      "bundleIdentifier": "com.gdakers.spraytankmixcalculator",
       "infoPlist": {
         "GADApplicationIdentifier": "ca-app-pub-8488326065495220~7717686022"
       }
     },
     "android": {
-      "package": "com.graemedakers.spraytankcalculator",
+      "package": "com.gdakers.spraytankmixcalculator",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#09090b"
