@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Spray Tank Mix Calculator",
+    "slug": "spray-tank-mix-calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#09090b"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.graemedakers.spraytankcalculator",
+      "infoPlist": {
+        "GADApplicationIdentifier": "ca-app-pub-8488326065495220~7717686022"
+      }
+    },
+    "android": {
+      "package": "com.graemedakers.spraytankcalculator",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#09090b"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "versionCode": 3
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-8488326065495220~6898368881",
+          "iosAppId": "ca-app-pub-8488326065495220~7717686022"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "71ca4ff7-f834-4796-9e7f-09afa346b4c4"
+      }
+    }
+  }
+}
